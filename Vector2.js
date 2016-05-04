@@ -44,7 +44,7 @@ class Vector2 {
 
 	rotate( angle ) {
 
-		let rad = Math.toRadians( angle );
+		let rad = angle * Math.PI / 180;
 		let cos = Math.cos( rad );
 		let sin = Math.sin( rad );
 
