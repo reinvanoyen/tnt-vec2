@@ -1,0 +1,29 @@
+{
+  "name": "tnt-vec2",
+  "version": "0.0.1",
+  "description": "A simple ES6 vector2 class",
+  "main": "Vector2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reinvanoyen/tnt-vec2.git"
+  },
+  "keywords": [
+    "vec2",
+    "vector2",
+    "2d",
+    "vector",
+    "math",
+    "linear",
+    "algebra",
+    "point"
+  ],
+  "author": "Rein Van Oyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reinvanoyen/tnt-vec2/issues"
+  },
+  "homepage": "https://github.com/reinvanoyen/tnt-vec2#readme"
+}
