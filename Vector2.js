@@ -100,6 +100,10 @@ class Vector2 {
 
 		return ( this.x === v.x && this.y === v.y );
 	}
+
+	angle() {
+		return Math.atan2( this.y, this.x );
+	}
 }
 
 module.exports = Vector2;
