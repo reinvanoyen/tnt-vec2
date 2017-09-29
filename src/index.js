@@ -14,12 +14,10 @@ class Vector2 {
 	}
 
 	lerp( v, factor ) {
-
 		return v.sub( this ).mul( factor ).add( this );
 	}
 
 	dot( v ) {
-
 		return ( this.x * v.x ) + ( this.y * v.y );
 	}
 
@@ -38,7 +36,6 @@ class Vector2 {
 	}
 
 	cross( v ) {
-
 		return ( this.x * v.y ) - ( this.y * v.x );
 	}
 
@@ -106,4 +103,4 @@ class Vector2 {
 	}
 }
 
-module.exports = Vector2;
+export default Vector2;
